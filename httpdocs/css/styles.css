@@ -1,0 +1,42 @@
+a {
+	color: #0087fa;
+	text-decoration: none;
+	-webkit-transition: .4s color;
+	   -moz-transition: .4s color;
+			transition: .4s color;
+}
+
+a:hover { color: #fa7800; }
+
+
+#wrapper {
+	display: block;
+	color: #444;
+	font: 13px/16px 'Lucida Grande', Arial, sans-serif;
+	margin: 50px auto;
+	width: 900px;
+}
+
+	h1 {
+		color: #333;
+		font: 47px 'CubanoRegular', Arial, sans-serif;
+	}
+
+	p#instructions {
+		background-color: #efefef;
+		border: 1px solid #ddd;
+		-webkit-border-radius: 10px;
+		   -moz-border-radius: 10px;
+				border-radius: 10px;
+		font-size: 15px;
+		padding: 1em;
+	}
+
+	#library th,
+	#library td {
+		border-bottom: 1px dotted #d7d7d7;
+		padding: .5em;
+		text-align: left;
+	}
+
+		#library .title{ font-size: 14px; }
